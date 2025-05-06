@@ -1,0 +1,36 @@
+.input,
+input[type="submit"] {
+  text-indent: 5px;
+  display: block;
+  margin: 10px auto 5px;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #eee;
+  border: none;
+  height: 1.65rem;
+}
+input[type="submit"] {
+  text-indent: 0px;
+  text-align: center;
+  background-color: #009090;
+  color: white;
+}
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.results .box {
+  color: white;
+  background-color: orangered;
+  width: calc((100% / 3) - 6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin: 3px;
+  line-height: 1.85;
+}
+* {
+  box-sizing: border-box;
+}
